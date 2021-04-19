@@ -15,8 +15,14 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp">
+    <ClCompile Include="src\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\Shaders\Basic.frag" />
+    <None Include="src\Shaders\Basic.vert" />
+    <None Include="src\Shaders\Spir-V\frag.spv" />
+    <None Include="src\Shaders\Spir-V\vert.spv" />
   </ItemGroup>
 </Project>
